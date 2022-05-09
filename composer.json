@@ -12,7 +12,7 @@
             "email": "abcd-xyz@list.ru"
         }
     ],
-    "require": {
+    "require-dev": {
         "squizlabs/php_codesniffer": "*"
     }
 }
