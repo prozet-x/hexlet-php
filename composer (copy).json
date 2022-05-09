@@ -1,6 +1,11 @@
 {
     "name": "prozex/hexlet-php",
     "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Prozex\\HexletPhp\\": "src/"
+        }
+    },
     "authors": [
         {
             "name": "Dmitriy Nesterovich",
@@ -12,8 +17,5 @@
     },
     "autoload": {
         "files": ["src/Runner.php"]
-    },
-    "require": {
-        "tightenco/collect": "^9.8"
     }
 }
